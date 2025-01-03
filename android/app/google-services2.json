@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "557824746695",
+    "firebase_url": "https://secondwinddata-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "secondwinddata",
+    "storage_bucket": "secondwinddata.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557824746695:android:d9215f4022d19f9e2f0ae2",
+        "android_client_info": {
+          "package_name": "com.example.my_projects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0MbEV_SRAFjNq56ZsQpfrY8QrrhqPPfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557824746695:android:d24e42474281948f2f0ae2",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0MbEV_SRAFjNq56ZsQpfrY8QrrhqPPfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557824746695:android:fb22adf9460d70372f0ae2",
+        "android_client_info": {
+          "package_name": "com.example.myapp1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0MbEV_SRAFjNq56ZsQpfrY8QrrhqPPfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557824746695:android:b344869c66c02e212f0ae2",
+        "android_client_info": {
+          "package_name": "com.example.myapp3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0MbEV_SRAFjNq56ZsQpfrY8QrrhqPPfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557824746695:android:7f856f430c1808d82f0ae2",
+        "android_client_info": {
+          "package_name": "com.example.sensor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0MbEV_SRAFjNq56ZsQpfrY8QrrhqPPfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557824746695:android:da31b3113fa33fc62f0ae2",
+        "android_client_info": {
+          "package_name": "com.exmple.myapp3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0MbEV_SRAFjNq56ZsQpfrY8QrrhqPPfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
