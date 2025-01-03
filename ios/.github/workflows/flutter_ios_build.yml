@@ -1,10 +1,7 @@
-name: Flutter iOS Build
+name: iOS Build
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
 
@@ -13,16 +10,25 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Flutter
+      - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '<flutter-version>' # 예: 3.13.2
+          flutter-version: 'stable'
 
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Install CocoaPods dependencies
+        run: |
+          cd ios
+          pod install --verbose
+          cd ..
+
+      - name: Clean project
+        run: flutter clean
+
       - name: Build iOS
-        run: flutter build ios --release
+        run: flutter build ios --release --no-codesign

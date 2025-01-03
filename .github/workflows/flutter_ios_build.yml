@@ -18,11 +18,17 @@ jobs:
         with:
           flutter-version: 'stable'
 
+      - name: Install dependencies
+        run: flutter pub get
+
       - name: Install CocoaPods dependencies
         run: |
           cd ios
-          pod install
+          pod install --verbose
           cd ..
+
+      - name: Clean project
+        run: flutter clean
 
       - name: Build iOS
         run: flutter build ios --release --no-codesign
